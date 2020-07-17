@@ -2,7 +2,7 @@ import os
 import fire
 from PIL import Image
 from joblib import Parallel, delayed
-from misc import get_project_path, timer
+from .misc import get_project_path, timer
 
 
 def load_resize_save(size, img_path, save_path):
