@@ -6,7 +6,7 @@ from shutil import copy
 
 
 def install_hibm():
-    style_path = "./hibm.mplstyle"
+    style_path = os.path.join(os.path.dirname(__file__), "hibm.mplstyle")
 
     # Getting all the anaconda enviroments.
     home = os.getenv("HOME")
