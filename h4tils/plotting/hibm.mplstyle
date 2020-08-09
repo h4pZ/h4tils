@@ -322,7 +322,7 @@ axes.axisbelow      : True  # draw axis gridlines and ticks below
 #axes.unicode_minus  : True    # use unicode for the minus symbol
                                # rather than hyphen.  See
                                # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
- axes.prop_cycle    : cycler('color', ['f60157', '0157f6', '01f192', 'fe53bb', '08f6fd', 'fcfc50', '99ffcc', '00C3F1', 'FFFFFF', '607889', '70396a'])
+ axes.prop_cycle    : cycler('color', ['f60157', '0157f6', '5202a3', 'f2741d', 'd3576d', 'f3ed22', '99ffcc'])
                       # color cycle for plot lines  as list of string
                       # colorspecs: single letter, long name, or web-style hex
 #axes.autolimit_mode : data # How to scale axes limits to the data.
